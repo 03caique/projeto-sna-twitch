@@ -50,4 +50,4 @@ Os gráficos serão salvos automaticamente em `relatorios/`.
 
 - O nó 127 é o hub dominante da rede, líder simultâneo nas quatro métricas de centralidade (degree, betweenness, closeness e eigenvector).
 - Rede altamente conectada: um único componente conexo (100% giant component), diâmetro 7, caminho médio de 2,53 — características de rede "mundo pequeno".
-- Modularidade Q obtida com Louvain: [preencher com o valor real do seu output]
+- Modularidade Q obtida com Louvain: 0.2909
