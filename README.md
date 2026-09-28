@@ -11,18 +11,20 @@ Rede social de usuários do Twitch que transmitem em português, extraída do MU
 
 ## Estrutura do projeto
 
+```
 projeto-sna-twitch/
 ├── dados/
-│ └── musae_PTBR_edges.csv
+│   └── musae_PTBR_edges.csv
 ├── src/
-│ ├── carregar_grafo.py # Carregamento do grafo
-│ ├── metricas_globais.py # Etapa 1: densidade, grau médio, diâmetro etc.
-│ ├── centralidades.py # Etapa 2: degree, betweenness, closeness, eigenvector
-│ ├── comunidades.py # Etapa 3: detecção Louvain e análise por comunidade
-│ └── visualizacao.py # Etapa 4: histograma e mapa de comunidades
-├── relatorios/ # Gráficos gerados (.png)
-├── main.py # Executa o pipeline completo
+│   ├── carregar_grafo.py       # Carregamento do grafo
+│   ├── metricas_globais.py     # Etapa 1: densidade, grau médio, diâmetro etc.
+│   ├── centralidades.py        # Etapa 2: degree, betweenness, closeness, eigenvector
+│   ├── comunidades.py          # Etapa 3: detecção Louvain e análise por comunidade
+│   └── visualizacao.py         # Etapa 4: histograma e mapa de comunidades
+├── relatorios/                 # Gráficos gerados (.png)
+├── main.py                     # Executa o pipeline completo
 └── requirements.txt
+```
 
 
 ## Como executar
