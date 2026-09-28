@@ -1,4 +1,6 @@
-networkx 
-matplotlib 
-python-louvain 
+networkx
 pandas
+matplotlib
+numpy
+scipy
+python-louvain
