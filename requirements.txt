@@ -1,5 +1,4 @@
 networkx 
 matplotlib 
-cdlib 
 python-louvain 
 pandas
